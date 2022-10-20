@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#initial-window {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.8;
+}
+#patua-image {
+    width: 100%;
+    height: 50%;
+}
+#detail-image {
+    width: 100%;
+    height: 25%;
+    justify-self: stretch;
+    margin-bottom: -0.2%;
+}
+#container-logo-window {
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo-window {
+    height: 80%;
+}
+.line-detail1 {
+    width: 100%;
+    height: 8%;
+    background-color: rgb(189, 184, 153);
+}
+.line-detail2 {
+    width: 100%;
+    height: 2%;
+    background-color: rgb(242, 203, 139);
+}
+#welcome-name {
+    color: white;
+    margin-bottom: 10vh;
+    font-style: italic;
+    font-size: 6vh;
+}
+#welcome-message {
+    color: white;
+    margin-top: 10vh;
+    font-style: italic;
+    font-size: 6vh;
+}
